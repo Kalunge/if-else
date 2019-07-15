@@ -1,4 +1,4 @@
-var hour =13;
+var hour =11;
 if(hour>=10 && hour<12)
     console.log('good morning');
 else if (hour>12 && hour<16)
@@ -12,8 +12,10 @@ else
     switch (hour){
         case hour>=10 && hour<12:
             donsole.log('good morning');
+            break;
     case hour<=12 && hour<16:
         console.log('good afternoon');
+        break;
     default:
         console.log('goodnight');
         }
