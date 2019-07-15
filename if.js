@@ -29,3 +29,10 @@ else
 for (var i=10; i>=1; i--){
   if (i % 2 === 0) console.log('i am even', i);
 }
+
+//while 
+var i=0;
+while (i<=15){
+    if(i % 2 !== 0) console.log('i am odd', i);
+    i++;
+}
