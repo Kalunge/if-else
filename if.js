@@ -36,3 +36,17 @@ while (i<=15){
     if(i % 2 !== 0) console.log('i am odd', i);
     i++;
 }
+
+//for-in loopo
+
+var person= {
+    name : 'tito',
+    age :26
+};
+
+for(var key in person)
+console.log(key, person[key]);
+
+var selectedColors = ['green', 'blue', 'black', 'yellow'];
+for(var index in selectedColors)
+console.log(index, 'i am color ', selectedColors[index]);
